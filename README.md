@@ -1,3 +1,5 @@
+<div style="padding-left: 20px;">
+
 # E-33a - Project-1: Wiki
 
 # Wiki
@@ -66,3 +68,4 @@ Complete the implementation of your Wiki encyclopedia. You must fulfill the foll
 - When creating a new page, ensure that the title does not already exist to prevent overwriting existing entries.
 - Utilize Django’s template inheritance to maintain consistent layouts across different pages.
  
+</div>
