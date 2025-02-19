@@ -1,0 +1,20 @@
+const useStore = createStore
+
+export function withColorPickerOverride(Component): ComponentType {
+    return (props) => {
+        const [store, setStore] = useStore()
+
+        //console.1og(props.name)
+        console.log(store)
+
+        return (
+            <Component
+                {...props}
+                onClick={() => {
+                    console.log("Color clicked")
+                    setStore({ currentColor: props.name })
+                }}
+            />
+        )
+    }
+}
